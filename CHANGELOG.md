@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.20](https://github.com/ecomclub/app-tiny/compare/v1.4.19...v1.4.20) (2020-10-11)
+
+
+### Bug Fixes
+
+* status aberto to em aberto ([79097cd](https://github.com/ecomclub/app-tiny/commit/79097cd2c165e15a754cbe47dfa37088b9b53947))
+
 ### [1.4.19](https://github.com/ecomclub/app-tiny/compare/v1.4.18...v1.4.19) (2020-10-11)
 
 ### [1.4.18](https://github.com/ecomclub/app-tiny/compare/v1.4.17...v1.4.18) (2020-10-11)
