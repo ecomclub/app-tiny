@@ -29,7 +29,13 @@ module.exports = ({ appSdk, ecomClient, mysql, logger }) => {
               authenticationId: auth.row.authentication_id,
               accessToken: auth.row.access_token
             }).then(({ data }) => {
-              const financialStatus = data.financial_status ? data.financial_status.current : null
+              let financialStatus = null
+              if (order.financial_status) {
+                financialStatus = order.financial_status.current
+              } else if (order.transactions) {
+                const transaction = order.transactions.find(trans => trans.status)
+                financialStatus = transaction.status.current
+              }
               return mysql.insertOrders(storeId, data._id, financialStatus, parseStatus(financialStatus), data.number, null, 'ecom')
             }).then(result => {
               resp.success = true
