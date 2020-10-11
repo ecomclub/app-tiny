@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.17](https://github.com/ecomclub/app-tiny/compare/v1.4.16...v1.4.17) (2020-10-11)
+
+
+### Bug Fixes
+
+* **orders/create.js:** ignore storeSecret ([ff5b0c1](https://github.com/ecomclub/app-tiny/commit/ff5b0c10ebdf6b931258266e54cb2d033a50ea9e))
+
 ### [1.4.16](https://github.com/ecomclub/app-tiny/compare/v1.4.15...v1.4.16) (2020-10-09)
 
 ### [1.4.15](https://github.com/ecomclub/app-tiny/compare/v1.4.14...v1.4.15) (2020-10-09)
