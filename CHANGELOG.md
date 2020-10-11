@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.18](https://github.com/ecomclub/app-tiny/compare/v1.4.17...v1.4.18) (2020-10-11)
+
+
+### Bug Fixes
+
+* avoiding financial_status null ([b568017](https://github.com/ecomclub/app-tiny/commit/b568017c16be7e9b6e6b31271f8bb60b345ef7be))
+
 ### [1.4.17](https://github.com/ecomclub/app-tiny/compare/v1.4.16...v1.4.17) (2020-10-11)
 
 
