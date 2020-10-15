@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.22](https://github.com/ecomclub/app-tiny/compare/v1.4.21...v1.4.22) (2020-10-15)
+
+
+### Bug Fixes
+
+* **new-pedido.js:** format date dd/mm/yyyy ([d455c96](https://github.com/ecomclub/app-tiny/commit/d455c96c106bf229283d2fa68bc6fa53c8937242))
+
 ### [1.4.21](https://github.com/ecomclub/app-tiny/compare/v1.4.20...v1.4.21) (2020-10-13)
 
 ### [1.4.20](https://github.com/ecomclub/app-tiny/compare/v1.4.19...v1.4.20) (2020-10-11)
