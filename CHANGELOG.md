@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.24](https://github.com/ecomclub/app-tiny/compare/v1.4.23...v1.4.24) (2020-10-16)
+
+
+### Bug Fixes
+
+* **stock-manager.js:** remove notes from variations body ([8579a04](https://github.com/ecomclub/app-tiny/commit/8579a0440655f7a4da508f7b1adf0f3ac9ae6334))
+
 ### [1.4.23](https://github.com/ecomclub/app-tiny/compare/v1.4.22...v1.4.23) (2020-10-16)
 
 ### [1.4.22](https://github.com/ecomclub/app-tiny/compare/v1.4.21...v1.4.22) (2020-10-15)

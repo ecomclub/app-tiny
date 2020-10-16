@@ -1,12 +1,12 @@
 {
   "name": "tiny",
   "private": true,
-  "version": "1.4.23",
+  "version": "1.4.24",
   "description": "Tiny for E-Com Plus",
   "main": "main.js",
   "scripts": {
     "start": "node main.js",
-    "local": "APP_BASE_URI='https://apptiny.ngrok.io' APP_NAME='App Tiny' ECOMCLIENT_NOTIMEOUT=true DB_NAME=tiny ECOM_AUTH_DB=/var/dbs/tiny.sqlite LOGGER_OUTPUT=/var/log/nodejs/tiny.out LOGGER_ERRORS=/var/log/nodejs/tiny.error LOGGER_FATAL_ERRORS=/var/log/nodejs/_stderr nodemon main.js",
+    "local": "APP_BASE_URI='https://apptiny.ngrok.io' APP_NAME='App Tiny' ECOMCLIENT_NOTIMEOUT=true DB_NAME=tiny ECOM_AUTH_DB=/var/dbs/tiny.sqlite LOGGER_OUTPUT=/var/log/nodejs/tiny.out LOGGER_ERRORS=/var/log/nodejs/tiny.error LOGGER_FATAL_ERRORS=/var/log/nodejs/_stderr nodemon --inspect main.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "release": "standard-version",
     "publish:market": "node ./scripts/market-publication.js"
