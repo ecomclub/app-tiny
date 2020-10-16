@@ -1,7 +1,7 @@
 {
   "name": "tiny",
   "private": true,
-  "version": "1.4.26",
+  "version": "1.4.27",
   "description": "Tiny for E-Com Plus",
   "main": "main.js",
   "scripts": {

@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.27](https://github.com/ecomclub/app-tiny/compare/v1.4.26...v1.4.27) (2020-10-16)
+
+
+### Bug Fixes
+
+* status unauthorized to cancelado ([5cacb1e](https://github.com/ecomclub/app-tiny/commit/5cacb1e2ef3d0522f3c18f26cc9bc20571e42c58))
+
 ### [1.4.26](https://github.com/ecomclub/app-tiny/compare/v1.4.25...v1.4.26) (2020-10-16)
 
 
